@@ -1,0 +1,110 @@
+html {
+	font-size: 62.5%;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #f0efef;
+	color: #033048;
+}
+header {
+	background-color: #033048;
+}
+header h1 {
+	display: inline-block;
+	color: white;
+}
+nav {
+	display: inline-block;
+	vertical-align: baseline;
+	float: right;
+	font-weight: 600;
+	font-size: 2.4rem;
+}
+ul {
+	list-style-type: none;
+}
+header li {
+	display: inline-block;
+	padding: 2rem;
+}
+body {
+	font-weight: 300;
+	font-size: 2.4em;
+}
+#articles {
+	display: inline-block;
+	vertical-align: top;
+	max-width: 70rem;
+	padding: 2rem;
+}
+#nav-left {
+	display: inline-block;
+	vertical-align: top;
+	width: 24rem;
+	padding: 2rem;
+}
+a {
+	text-decoration: none;
+}
+nav a {
+	color: #f9e42e;
+}
+.grossyellow {
+	color: #f9e42e;
+}
+.lightsmall {
+	font-weight: 300;
+	font-size: 2.2rem;
+}
+.semiboldsmall {
+	font-weight: 600;
+	font-size: 2.2rem;
+	color: #033048;
+}
+.semiboldnormal {
+	font-weight: 600;
+	font-size: 2.4rem;
+	color: #033048;
+}
+.semiboldtitle {
+	font-weight: 600;
+	font-size: 4rem;
+}
+h3 {
+	font-weight: 800;
+	font-size: 3.2rem;
+}
+#cta {
+	background-color: #f9e42e;
+	margin: 0;
+	text-align: center;
+}
+button {
+	border-style: none;
+	border-radius: 5px;
+	font-weight: 800;
+	color: white;
+	font-size: 1.2rem;
+	background-color: #033048;
+	padding: 10px 50px 10px 50px;
+	margin: 20px;
+}
+footer {
+	background-color: #121212;
+	padding: 3.5rem;
+	text-align: center;
+}
+footer p {
+	font-weight: 400;
+	font-size: .9rem;
+	color: white;
+}
+#socialmedia img {
+	padding: 1.2rem;
+	height: 2rem;
+	width: auto;
+}
+.group p::first-letter {
+	font-size: 6rem;
+	color: #606161;
+	float: left;
+	vertical-align: top;
+}
